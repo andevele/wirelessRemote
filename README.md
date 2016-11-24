@@ -40,8 +40,7 @@ include $(BUILD_PACKAGE)
 本应用程序主要用于学习交流，用户可以发挥想象自行修改，完善更多功能
 
 作者联系方式：
-朱罗锋_zhulf
-fgood@aliyun.com
+andevele.com
 
 
 
