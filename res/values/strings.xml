@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WirelessRemote</string>
+    <string name="menu_settings">Settings</string>
+    <string name="mutekey_text">Mute</string>
+    <string name="subtitle_text">Subtitle</string>
+    <string name="power_text">Power</string>
+    <string name="circle_text">Circle</string>
+    <string name="button_up">Up</string>
+    <string name="button_left">Left</string>
+    <string name="button_right">Right</string>
+    <string name="button_down">Down</string>
+    <string name="button_ok">OK</string>
+    <string name="voice_progressbar">Voice ProgressBar</string>
+    <string name="home_text">Home</string>
+    <string name="back_text">Back</string>
+    <string name="menu_text">Menu</string>
+    <string name="voice_left">voice left icon</string>
+    <string name="voice_right">voice right icon</string>
+    <string name="exit_app">Press again to exit</string>
+    <string name="connecting_tv">connecting tv</string>
+    <string name="tv_source">tv source</string>
+    
+    <string name="connection_code">Please input 6 connection code</string>
+    <string name="login_text">Connect</string>
+    <string name="back_to_mainactivity">Return</string>
+    <string name="wrongvalue">Wrong value, Please input again</string>
+    <string name="nullvalue">Null value, Please input again</string>
+    <string name="check_network_connection">Please check the network connection</string>
+    
+    <string name="number_one">number one</string>
+    <string name="number_two">number two</string>
+    <string name="number_three">number three</string>
+    <string name="number_four">number four</string>
+    <string name="number_five">number five</string>
+    <string name="number_six">number six</string>
+    <string name="number_seven">number seven</string>
+    <string name="number_eight">number eight</string>
+    <string name="number_nine">number nine</string>
+    <string name="number_zero">number zero</string>
+    
+    <string name="letter_q_upper">letter q</string>
+    <string name="letter_w_upper">letter w</string>
+    <string name="letter_e_upper">letter e</string>
+    <string name="letter_r_upper">letter r</string>
+    <string name="letter_t_upper">letter t</string>
+    <string name="letter_y_upper">letter y</string>
+    <string name="letter_u_upper">letter u</string>
+    <string name="letter_i_upper">letter i</string>
+    <string name="letter_o_upper">letter o</string>
+    <string name="letter_p_upper">letter p</string>
+    
+    <string name="letter_a_upper">letter a</string>
+    <string name="letter_s_upper">letter s</string>
+    <string name="letter_d_upper">letter d</string>
+    <string name="letter_f_upper">letter f</string>
+    <string name="letter_g_upper">letter g</string>
+    <string name="letter_h_upper">letter h</string>
+    <string name="letter_j_upper">letter j</string>
+    <string name="letter_k_upper">letter k</string>
+    <string name="letter_l_upper">letter l</string>
+    <string name="symbol_back_to_homepage">back to homepage</string>
+    
+    <string name="symbol_switch">symbol switch</string>
+    <string name="letter_z_upper">letter s</string>
+    <string name="letter_x_upper">letter d</string>
+    <string name="letter_c_upper">letter f</string>
+    <string name="letter_v_upper">letter g</string>
+    <string name="letter_b_upper">letter h</string>
+    <string name="letter_n_upper">letter j</string>
+    <string name="letter_m_upper">letter k</string>
+    <string name="symbol_backspace">symbol_backspace</string>
+    
+    <string name="symbol_special">symbol special</string>
+    <string name="symbol_at">symbol at</string>
+    <string name="symbol_dotcom">symbol dotcom</string>
+    <string name="symbol_space">symbol space</string>
+    <string name="symbol_enter">symbol enter</string>
+    
+    <string name="symbol_dot">symbol dot</string>
+    <string name="symbol_comma">symbol comma</string>
+    <string name="symbol_colon">symbol colon</string>
+    <string name="symbol_single_quote">symbol single quote</string>
+    <string name="symbol_semicolon">symbol semicolon</string>
+    <string name="symbol_quote">symbol quote</string>
+    <string name="symbol_tilde">symbol tilde</string>
+    <string name="symbol_vertical_line">symbol vertical line</string>
+    <string name="symbol_backslash">symbol backslash</string>
+    <string name="symbol_underline">symbol underline</string>
+    
+    <string name="symbol_pound_sign">symbol pound sign</string>
+    <string name="symbol_question_mark">symbol question mark</string>
+    <string name="symbol_percent">symbol percent</string>
+    <string name="symbol_plus">symbol plus</string>
+    <string name="symbol_minus">symbol minus</string>
+    <string name="symbol_left_parenthese">symbol left parenthese</string>
+    <string name="symbol_right_parenthese">symbol right parenthese</string>
+    <string name="symbol_left_bracket">symbol left bracket</string>
+    <string name="symbol_right_bracket">symbol right bracket</string>
+    <string name="symbol_exclamatory_mark">symbol exclamatory mark</string>
+    
+    <string name="symbol_equal">symbol equal</string>
+    <string name="symbol_left_brace">symbol left brace</string>
+    <string name="symbol_right_brace">symbol right brace</string>
+    <string name="symbol_left_guillemets">symbol left guillemets</string>
+    <string name="symbol_right_guillemets">symbol right guillemets</string>
+    
+    
+
+</resources>

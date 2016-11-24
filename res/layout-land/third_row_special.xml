@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <ImageView
+        android:id="@+id/id_symbol_special_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:contentDescription="@string/symbol_special"
+        android:src="@drawable/symbol_special_pressed" />
+
+    <ImageView
+        android:id="@+id/id_symbol_left_brace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:contentDescription="@string/symbol_left_brace"
+        android:src="@drawable/bg_symbol_left_brace" />
+
+    <ImageView
+        android:id="@+id/id_symbol_right_brace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:contentDescription="@string/symbol_right_brace"
+        android:src="@drawable/bg_symbol_right_brace" />
+
+    <ImageView
+        android:id="@+id/id_symbol_left_guillemets"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:contentDescription="@string/symbol_left_guillemets"
+        android:src="@drawable/bg_symbol_left_guillemets" />
+
+    <ImageView
+        android:id="@+id/id_symbol_right_guillemets"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:contentDescription="@string/symbol_right_guillemets"
+        android:src="@drawable/bg_symbol_right_guillemets" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/margin_right"
+        android:layout_weight="1" />
+
+</merge>

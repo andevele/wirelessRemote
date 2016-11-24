@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <ImageView
+        android:id="@+id/id_symbol_pound_sign"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:contentDescription="@string/symbol_pound_sign"
+        android:src="@drawable/bg_symbol_pound_sign" />
+
+    <ImageView
+        android:id="@+id/id_symbol_question_mark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:contentDescription="@string/symbol_question_mark"
+        android:src="@drawable/bg_symbol_question_mark" />
+
+    <ImageView
+        android:id="@+id/id_symbol_percent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:contentDescription="@string/symbol_percent"
+        android:src="@drawable/bg_symbol_percent" />
+
+    <ImageView
+        android:id="@+id/id_symbol_plus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:contentDescription="@string/symbol_plus"
+        android:src="@drawable/bg_symbol_plus" />
+
+    <ImageView
+        android:id="@+id/id_symbol_minus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:contentDescription="@string/symbol_minus"
+        android:src="@drawable/bg_symbol_minus" />
+
+    <ImageView
+        android:id="@+id/id_symbol_left_parenthese"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:contentDescription="@string/symbol_left_parenthese"
+        android:src="@drawable/bg_symbol_left_parenthese" />
+
+    <ImageView
+        android:id="@+id/id_symbol_right_parenthese"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:contentDescription="@string/symbol_right_parenthese"
+        android:src="@drawable/bg_symbol_right_parenthese" />
+
+    <ImageView
+        android:id="@+id/id_symbol_left_bracket"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:contentDescription="@string/symbol_left_bracket"
+        android:src="@drawable/bg_symbol_left_bracket" />
+
+    <ImageView
+        android:id="@+id/id_symbol_right_bracket"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:contentDescription="@string/symbol_right_bracket"
+        android:src="@drawable/bg_symbol_right_bracket" />
+
+    <ImageView
+        android:id="@+id/id_symbol_exclamatory_mark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:contentDescription="@string/symbol_exclamatory_mark"
+        android:src="@drawable/bg_symbol_exclamatory_mark" />
+
+</merge>

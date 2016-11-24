@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <ImageView
+        android:id="@+id/id_number_one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:contentDescription="@string/number_one"
+        android:src="@drawable/bg_number_one" />
+
+    <ImageView
+        android:id="@+id/id_number_two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:contentDescription="@string/number_two"
+        android:src="@drawable/bg_number_two" />
+
+    <ImageView
+        android:id="@+id/id_number_three"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:contentDescription="@string/number_three"
+        android:src="@drawable/bg_number_three" />
+
+    <ImageView
+        android:id="@+id/id_number_four"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:contentDescription="@string/number_four"
+        android:src="@drawable/bg_number_four" />
+
+    <ImageView
+        android:id="@+id/id_number_five"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:contentDescription="@string/number_five"
+        android:src="@drawable/bg_number_five" />
+
+    <ImageView
+        android:id="@+id/id_number_six"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:contentDescription="@string/number_six"
+        android:src="@drawable/bg_number_six" />
+
+    <ImageView
+        android:id="@+id/id_number_seven"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:contentDescription="@string/number_seven"
+        android:src="@drawable/bg_number_seven" />
+
+    <ImageView
+        android:id="@+id/id_number_eight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:contentDescription="@string/number_eight"
+        android:src="@drawable/bg_number_eight" />
+
+    <ImageView
+        android:id="@+id/id_number_nine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:contentDescription="@string/number_nine"
+        android:src="@drawable/bg_number_nine" />
+
+    <ImageView
+        android:id="@+id/id_number_zero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:contentDescription="@string/number_zero"
+        android:src="@drawable/bg_number_zero" />
+
+</merge>

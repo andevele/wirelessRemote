@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <ImageView
+        android:id="@+id/id_symbol_special"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:contentDescription="@string/symbol_special"
+        android:src="@drawable/symbol_special_normal" />
+
+    <ImageView
+        android:id="@+id/id_symbol_at"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:contentDescription="@string/symbol_at"
+        android:src="@drawable/bg_symbol_at" />
+
+    <ImageView
+        android:id="@+id/id_symbol_dot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:contentDescription="@string/symbol_dot"
+        android:src="@drawable/bg_symbol_dot" />
+
+    <ImageView
+        android:id="@+id/id_symbol_space"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:contentDescription="@string/symbol_space"
+        android:src="@drawable/bg_symbol_space" />
+
+    <ImageView
+        android:id="@+id/id_symbol_enter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:contentDescription="@string/symbol_enter"
+        android:src="@drawable/bg_symbol_enter" />
+
+</merge>

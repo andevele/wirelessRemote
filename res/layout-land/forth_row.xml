@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <ImageView
+        android:id="@+id/id_symbol_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:contentDescription="@string/symbol_switch"
+        android:src="@drawable/symbol_switch_normal" />
+
+    <ImageView
+        android:id="@+id/id_letter_z_lower"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/forth_row_key_margin_left"
+        android:layout_weight="1"
+        android:contentDescription="@string/letter_z_upper"
+        android:src="@drawable/bg_letter_z_lower" />
+
+    <ImageView
+        android:id="@+id/id_letter_x_lower"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:contentDescription="@string/letter_x_upper"
+        android:src="@drawable/bg_letter_x_lower" />
+
+    <ImageView
+        android:id="@+id/id_letter_c_lower"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:contentDescription="@string/letter_c_upper"
+        android:src="@drawable/bg_letter_c_lower" />
+
+    <ImageView
+        android:id="@+id/id_letter_v_lower"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:contentDescription="@string/letter_v_upper"
+        android:src="@drawable/bg_letter_v_lower" />
+
+    <ImageView
+        android:id="@+id/id_letter_b_lower"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:contentDescription="@string/letter_b_upper"
+        android:src="@drawable/bg_letter_b_lower" />
+
+    <ImageView
+        android:id="@+id/id_letter_n_lower"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:contentDescription="@string/letter_n_upper"
+        android:src="@drawable/bg_letter_n_lower" />
+
+    <ImageView
+        android:id="@+id/id_letter_m_lower"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/forth_row_key_margin_right"
+        android:layout_weight="1"
+        android:contentDescription="@string/letter_m_upper"
+        android:src="@drawable/bg_letter_m_lower" />
+
+    <ImageView
+        android:id="@+id/id_symbol_backspace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:contentDescription="@string/symbol_backspace"
+        android:src="@drawable/bg_symbol_backspace" />
+
+</merge>

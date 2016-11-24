@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- th right margin for the bottom last key -->
+    <dimen name="margin_right">300dip</dimen>
+
+    <!-- the left margin for the third row key -->
+    <dimen name="third_row_key_margin_left">32dip</dimen>
+    <!-- the right margin for the third row key -->
+    <dimen name="third_row_key_margin_right">30dip</dimen>
+
+    <!-- the left margin for the forth row key -->
+    <dimen name="forth_row_key_margin_left">18dip</dimen>
+
+    <!-- the right margin for the forth row key -->
+    <dimen name="forth_row_key_margin_right">18dip</dimen>
+
+    <!-- for main layout mute/power key container start: -->
+    <dimen name="mute_power_container_margin_top">40dip</dimen>
+    <dimen name="mute_power_container_padding_left">20dip</dimen>
+    <dimen name="mute_power_container_padding_right">20dip</dimen>
+    <!-- for main layout mute/power key container end: -->
+
+
+    <!-- for main layout keyboard/connecting_tv key container start: -->
+    <dimen name="keyboard_connectingtv_container_padding_left">20dip</dimen>
+    <dimen name="keyboard_connectingtv_container_padding_right">20dip</dimen>
+    <!-- for main layout mute/power key container end: -->
+
+
+    <!-- for main layout sekkbar start: -->
+    <dimen name="seekbar_container_margin_top">100dip</dimen>
+    <dimen name="seekbar_width">270dip</dimen>
+    <dimen name="seekbar_left_image_margin_left">40dip</dimen>
+    <dimen name="seekbar_right_image_margin_right">40dip</dimen>
+    <dimen name="seekbar_max_height">4dip</dimen>
+    <dimen name="seekbar_min_height">4dip</dimen>
+    <dimen name="seekbar_padding_left">8dip</dimen>
+    <dimen name="seekbar_padding_right">8dip</dimen>
+    <dimen name="seekbar_thumb_offset">6dip</dimen>
+    <!-- for main layout seekbar end: -->
+
+
+    <!-- for main layout mute/power/keyboard start: -->
+    <dimen name="key_width">60dip</dimen>
+    <dimen name="key_height">60dip</dimen>
+    <!-- for main layout mute/power/keyboard end: -->
+    
+    
+    <!-- for main layout connecting_tv key start: -->
+    <dimen name="connecting_tv_width">103dip</dimen>
+    <dimen name="connecting_tv_height">72dip</dimen>
+    <!-- for main layout connecting_tv end: -->
+
+
+    <!-- for main layout left/right/up/down/ok key start: -->
+    <dimen name="left_key_margin_left">46dip</dimen>
+    <dimen name="right_key_margin_left">220dip</dimen>
+    <dimen name="up_key_margin_top">0dip</dimen>
+    <dimen name="down_key_margin_top">178dip</dimen>
+    <dimen name="up_down_key_width">115dip</dimen>
+    <dimen name="up_down_key_height">93dip</dimen>
+    <dimen name="left_right_key_width">93dip</dimen>
+    <dimen name="left_right_key_height">115dip</dimen>
+    <dimen name="ok_key_width">135dip</dimen>
+    <dimen name="ok_key_height">88dip</dimen>
+    <!-- for main layout left/right/up/down/ok key end: -->
+
+
+    <!-- for main layout bottom container start: -->
+    <dimen name="bottom_container_margin_top">20dip</dimen>
+    <!-- for main layout bottom container end: -->
+
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<string name="app_name">无线遥控器</string>
+    <string name="exit_app">Press again to exit</string>
+    <string name="connection_code">Please input 6 connection code</string>
+    <string name="login_text">Connect</string>
+    <string name="back_to_mainactivity">Return</string>
+    <string name="wrongvalue">Wrong value, Please input again</string>
+    <string name="nullvalue">Null value, Please input again</string>
+    <string name="check_network_connection">Please check the network connection</string>
+
+</resources>

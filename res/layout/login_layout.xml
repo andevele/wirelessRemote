@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/login_background"
+    android:gravity="center_horizontal"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp" >
+
+    <EditText
+        android:id="@+id/connect_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/edittext_default"
+        android:hint="@string/connection_code"
+        android:inputType="text"
+        android:singleLine="true" />
+
+    <TextView
+        android:id="@+id/infomation_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/connect_value"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/bg_red"
+        android:visibility="invisible" />
+
+    <LinearLayout
+        android:id="@+id/login_connection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/infomation_label"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/login_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/bg_login_button"
+            android:text="@string/login_text"
+            android:textColor="@drawable/color_connection_button"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/back_to_mainactivity"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="8dp"
+            android:background="@drawable/bg_login_button"
+            android:text="@string/back_to_mainactivity"
+            android:textColor="@drawable/color_connection_button"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+</RelativeLayout>

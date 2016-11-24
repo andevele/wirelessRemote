@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#ffffffff</color>
+    <color name="black">#000000</color>
+    <color name="seekbar_background">#3b4448</color>
+    <color name="seekbar_progress">#62c6c7</color>
+    <color name="login_background">#fffffbf0</color>
+    <color name="bg_red">#ff8c1c1c</color>
+    
+</resources>

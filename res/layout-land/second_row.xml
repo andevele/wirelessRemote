@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <ImageView
+        android:id="@+id/id_letter_q_lower"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:contentDescription="@string/letter_q_upper"
+        android:src="@drawable/bg_letter_q_lower" />
+
+    <ImageView
+        android:id="@+id/id_letter_w_lower"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:contentDescription="@string/letter_w_upper"
+        android:src="@drawable/bg_letter_w_lower" />
+
+    <ImageView
+        android:id="@+id/id_letter_e_lower"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:contentDescription="@string/letter_e_upper"
+        android:src="@drawable/bg_letter_e_lower" />
+
+    <ImageView
+        android:id="@+id/id_letter_r_lower"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:contentDescription="@string/letter_r_upper"
+        android:src="@drawable/bg_letter_r_lower" />
+
+    <ImageView
+        android:id="@+id/id_letter_t_lower"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:contentDescription="@string/letter_t_upper"
+        android:src="@drawable/bg_letter_t_lower" />
+
+    <ImageView
+        android:id="@+id/id_letter_y_lower"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:contentDescription="@string/letter_y_upper"
+        android:src="@drawable/bg_letter_y_lower" />
+
+    <ImageView
+        android:id="@+id/id_letter_u_lower"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:contentDescription="@string/letter_u_upper"
+        android:src="@drawable/bg_letter_u_lower" />
+
+    <ImageView
+        android:id="@+id/id_letter_i_lower"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:contentDescription="@string/letter_i_upper"
+        android:src="@drawable/bg_letter_i_lower" />
+
+    <ImageView
+        android:id="@+id/id_letter_o_lower"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:contentDescription="@string/letter_o_upper"
+        android:src="@drawable/bg_letter_o_lower" />
+
+    <ImageView
+        android:id="@+id/id_letter_p_lower"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:contentDescription="@string/letter_p_upper"
+        android:src="@drawable/bg_letter_p_lower" />
+
+</merge>

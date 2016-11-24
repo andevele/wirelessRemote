@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black" >
+
+    <RelativeLayout
+        android:id="@+id/header_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="@dimen/mute_power_container_margin_top"
+        android:paddingLeft="@dimen/mute_power_container_padding_left"
+        android:paddingRight="@dimen/mute_power_container_padding_right" >
+
+        <ImageView
+            android:id="@+id/label_mute"
+            android:layout_width="@dimen/key_width"
+            android:layout_height="@dimen/key_height"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:contentDescription="@string/mutekey_text"
+            android:src="@drawable/bg_mute" />
+
+        <ImageView
+            android:id="@+id/label_connecting_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:contentDescription="@string/power_text"
+            android:src="@drawable/bg_connecting_tv" />
+
+        <ImageView
+            android:id="@+id/label_power"
+            android:layout_width="@dimen/key_width"
+            android:layout_height="@dimen/key_height"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:contentDescription="@string/power_text"
+            android:src="@drawable/bg_power" />
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/center_circle_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/header_layout"
+        android:layout_centerInParent="true" >
+
+        <ImageView
+            android:id="@+id/circle_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:contentDescription="@string/circle_text"
+            android:src="@drawable/icon_circle" >
+        </ImageView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/label_left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:scaleType="centerCrop"
+                android:contentDescription="@string/button_left"
+                android:src="@drawable/bg_button_left" />
+
+            <ImageView
+                android:id="@+id/label_right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:scaleType="centerCrop"
+                android:contentDescription="@string/button_right"
+                android:src="@drawable/bg_button_right" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/label_up"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:scaleType="centerCrop"
+                android:contentDescription="@string/button_up"
+                android:src="@drawable/bg_button_up" />
+
+            <ImageView
+                android:id="@+id/label_down"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:scaleType="centerCrop"
+                android:contentDescription="@string/button_down"
+                android:src="@drawable/bg_button_down" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/label_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:scaleType="centerCrop"
+            android:contentDescription="@string/button_ok"
+            android:src="@drawable/bg_button_ok" />
+    </FrameLayout>
+
+    <RelativeLayout
+        android:id="@+id/keyboard_setting_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/center_circle_layout"
+        android:paddingLeft="@dimen/keyboard_connectingtv_container_padding_left"
+        android:paddingRight="@dimen/keyboard_connectingtv_container_padding_right" >
+
+        <ImageView
+            android:id="@+id/label_keyboard"
+            android:layout_width="@dimen/key_width"
+            android:layout_height="@dimen/key_height"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:contentDescription="@string/mutekey_text"
+            android:src="@drawable/bg_keyboard" />
+
+        <ImageView
+            android:id="@+id/label_tv_source"
+            android:layout_width="@dimen/key_width"
+            android:layout_height="@dimen/key_width"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:contentDescription="@string/tv_source"
+            android:src="@drawable/bg_source" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/voice_seekbar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/center_circle_layout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/seekbar_container_margin_top" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/seekbar_left_image_margin_left"
+            android:contentDescription="@string/voice_left"
+            android:src="@drawable/icon_voice_left" />
+
+        <SeekBar
+            android:id="@+id/voice_seekbar"
+            android:layout_width="@dimen/seekbar_width"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:max="100"
+            android:maxHeight="@dimen/seekbar_max_height"
+            android:minHeight="@dimen/seekbar_min_height"
+            android:paddingLeft="@dimen/seekbar_padding_left"
+            android:paddingRight="@dimen/seekbar_padding_right"
+            android:progress="20"
+            android:progressDrawable="@drawable/seekbar_progress"
+            android:thumb="@drawable/seekbar_thumb"
+            android:thumbOffset="@dimen/seekbar_thumb_offset" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/seekbar_right_image_margin_right"
+            android:contentDescription="@string/voice_right"
+            android:src="@drawable/icon_voice_right" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@id/voice_seekbar_layout"
+        android:layout_marginTop="@dimen/bottom_container_margin_top"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/label_home"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:contentDescription="@string/home_text"
+            android:src="@drawable/bg_home" >
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/label_menu"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:contentDescription="@string/menu_text"
+            android:src="@drawable/bg_menu" >
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/label_back"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:contentDescription="@string/back_text"
+            android:src="@drawable/bg_back" >
+        </ImageView>
+    </LinearLayout>
+
+</RelativeLayout>
